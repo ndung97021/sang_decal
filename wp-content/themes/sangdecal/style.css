@@ -1033,7 +1033,7 @@ header#top nav > ul.navbar-nav > li {
 }
 header#top nav > ul.navbar-nav > li a:active,
 header#top nav > ul.navbar-nav > li a:focus {
-    
+    color: #4bcaff !important;
 }
 header#top nav > ul.navbar-nav > li a:hover,
 header#top nav > ul.navbar-nav > li.current-menu-item a {
@@ -2200,7 +2200,7 @@ only screen and (min-resolution: 144dpi) {
 	list-style: none!important;
 }
 
-.home .row .col.section-title {
+.row .col.section-title {
 	padding: 0px 0px 3em 0px;
 }
 
@@ -5662,7 +5662,7 @@ body[data-smooth-scrolling="1"] #to-top {
 	right: 33px;
 }
 
-.gallery a img {
+.photos a img {
 	width: 90%;
 	max-width: 90%;
 	height: auto;
@@ -5674,7 +5674,7 @@ body[data-smooth-scrolling="1"] #to-top {
 	-o-transition: all 0.2s linear;
 }
 
-.gallery a:hover img {
+.photos a:hover img {
 	border-color: #27CFC3!important;
 }
 
@@ -11130,10 +11130,10 @@ label span {
 #ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.about {
 	background-color: transparent;
 }
-#ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.banner {
+#ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.services {
 	margin-top: 19px;
 }
-.standard_section.gallery h1 {
+.standard_section.photos h1 {
 	margin-bottom: 28px;
 }
 #ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.google-map-image > .span_12{
@@ -11180,7 +11180,7 @@ label span {
 	/*padding-left: 50px !important;
 	padding-right: 50px !important;*/
 }
-#ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.gallery {
+#ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.photos {
 	background-color: #f4f4f4;
 }
 #ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.commercial {
@@ -11280,10 +11280,10 @@ font-size: 27px;}
 .contact .contact-left p {
 	color: #fff;
 }
-#ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .banner > .span_12 > .vc_span12 {
+#ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .services > .span_12 > .vc_span12 {
 	margin-bottom: 0 !important;
 }
-#ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.banner {
+#ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.services {
 	margin-top: 0 !important;
 }
 .row > .wpb_row.home {
@@ -11294,9 +11294,9 @@ font-size: 27px;}
 	padding-left: 0px;
 	padding-right: 0px;
 }
-.gallery > .col.span_12 {
+.photos > .col.span_12 {
 }
-body .gallery .carousel-heading .container {
+body .photos .carousel-heading .container {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 }
@@ -11331,7 +11331,7 @@ hr {
 	padding-top: 50px!important;
 	padding-bottom: 50px!important;
 }
-.gallery {
+.photos {
 	padding-bottom: 50px!important;
 }
 .contact-info h1 {
@@ -11375,19 +11375,19 @@ hr {
 	/*opacity: 0;
 	cursor: pointer;*/
 }
-#ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.banner {
+#ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.services {
 	background-color: #4bcaff !important;
 }
-#ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.banner h1 {
+#ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.services h1 {
 	color: #fff;
 }
-#ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.banner p {
+#ajax-content-wrap .home-wrap > .container-wrap > .container.main-content > .row > .standard_section.services p {
 	padding-bottom: 50px;
 }
 .wpb_alert p:last-child, #content .wpb_alert p:last-child, .wpb_text_column p:last-child, .wpb_text_column *:last-child, #content .wpb_text_column p:last-child, #content .wpb_text_column *:last-child, .wpb_toggle_content p:last-child {
 	margin-bottom: 25px;
 }
-#gallery .portfolio-items .col[data-default-color="true"] .work-info-bg {
+.photos .portfolio-items .col[data-default-color="true"] .work-info-bg {
 	background-color: #6461ae !important;
 }
 .about > .row-bg-wrap > .row-bg {
