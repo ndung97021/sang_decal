@@ -82,7 +82,7 @@ echo (!empty($options['transparent-header']) && $options['transparent-header'] =
 <?php if(!empty($options['boxed_layout']) && $options['boxed_layout'] == '1') { echo '<div id="boxed">'; } ?>
 
 <?php $using_secondary = (!empty($options['header_layout'])) ? $options['header_layout'] : ' ';
-
+<?php language_selector_flags(); ?>
 if($using_secondary == 'header_with_secondary') { ?>
 
 	<div id="header-secondary-outer" data-full-width="<?php echo (!empty($options['header-fullwidth']) && $options['header-fullwidth'] == '1') ? 'true' : 'false' ; ?>">

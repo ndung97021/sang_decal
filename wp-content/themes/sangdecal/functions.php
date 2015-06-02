@@ -9,6 +9,22 @@ define('NECTAR_THEME_NAME', 'salient');
 #-----------------------------------------------------------------#
 # Load text domain
 #-----------------------------------------------------------------#
+function language_selector_flags(){
+    global $sitepress;
+	static $languages;
+	if( !isset($languages) ) {
+		$languages = icl_get_languages('skip_missing=0&orderby=code');
+	}
+    if(!empty($languages)){
+		echo '<ul>';
+        foreach($languages as $l){
+			echo '<li class="'.($l['active'] ? ('active ' . $l['language_code']) : '').'"><a href="'.$l['url'].'">';
+				echo '<img src="'.$l['country_flag_url'].'" height="12" alt="'.$l['language_code'].'" width="18" />';
+			echo '</a></li>';
+        }
+		echo '</ul>';
+    }
+}
 
 add_action('after_setup_theme', 'lang_setup');
 function lang_setup(){
